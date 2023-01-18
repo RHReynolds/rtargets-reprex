@@ -17,5 +17,11 @@ output:
 
 ```{r example-figure, fig.cap = "Example figure"}
 
-knitr::include_graphics(file.path(params$ext_figures, "example.png"))
+# # Solution that makes dependencies clear in targets pipeline
+# # Works with RStudio knit, but gives error: Cannot find the file(s): "figures/example.png" with tar_make
+# knitr::include_graphics(file.path(params$ext_figures, "example.png"))
+
+# # Solution that works with tar_make() and RStudio knit, but doesn't make dependency clear
+withr::with_dir(here::here("docs"), knitr::include_graphics("./figures/example.png"))
+
 ```
