@@ -2,9 +2,9 @@ Package: rtargets-reprex
 Type: Project
 Version: 0.99.0
 Imports:
-    here,
     tidyverse,
     rmarkdown,
+    rprojroot,
     knitr,
     targets,
     tarchetypes,
