@@ -1,0 +1,21 @@
+---
+title: "Example"
+date: "`r format(Sys.time(), '%d %B %Y')`"
+params:
+    ext_figures: !r targets::tar_read(fig_dir, store = here::here("_targets"))
+output: 
+  bookdown::html_document2:
+    figure_caption: yes
+    code_folding: hide
+    theme: paper
+    highlight: kate
+    df_print: paged
+    toc: true
+    toc_float: true
+    number_sections: true
+---
+
+```{r example-figure, fig.cap = "Example figure"}
+
+knitr::include_graphics(file.path(params$ext_figures, "example.png"))
+```

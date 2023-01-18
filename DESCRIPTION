@@ -1,0 +1,12 @@
+Package: rtargets-reprex
+Type: Project
+Version: 0.99.0
+Imports:
+    here,
+    tidyverse,
+    rmarkdown,
+    knitr,
+    targets,
+    tarchetypes,
+    desc
+Encoding: UTF-8
