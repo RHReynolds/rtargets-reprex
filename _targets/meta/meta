@@ -1,3 +1,3 @@
 name|type|data|command|depend|seed|path|time|size|bytes|format|repository|iteration|parent|children|seconds|warnings|error
-fig_dir|stem|728c0fc439a08094|d987baee426bd3c0|c3b5fc02cdc369c1|1342013130|/Users/rreynolds/misc_projects/rtargets-reprex/docs/figures|t19375.4150095738s|41200f7f0df0ebd3|96|file|local|vector|||1.481||
-report|stem||ec0ed28d7ad0a5e9|5ee2b6fcb1b6c2c5|-237041703||t19375.4869305728s||0|file|local|vector|||0.27||Cannot find the files figuresexample.png
+fig_dir|stem|728c0fc439a08094|6c0e852301ae09f0|f47bb13d95a320a1|1342013130|docs/figures|t19375.6638847319s|41200f7f0df0ebd3|96|file|local|vector|||1.276||
+report|stem|64da6a4baba35a9e|0f05cb1da6ef4406|5ee2b6fcb1b6c2c5|-237041703|docs/example.html*docs/example.rmd|t19375.6814937961s|55abc519c7b06058|1611612|file|local|vector|||1.342||
